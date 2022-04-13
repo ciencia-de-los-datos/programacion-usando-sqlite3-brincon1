@@ -18,5 +18,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 
-
-pd.read_sql_query(SELECT sum(c12) FROM tbl1, conn).to_dic()
+SELECT SUM(c12) FROM tbl1;

@@ -18,4 +18,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 
-pd.DataFrame(SELECT sum(c12) FROM tbl1)
+
+pd.read_sql_query(SELECT sum(c12) FROM tbl1, conn).to_dic()

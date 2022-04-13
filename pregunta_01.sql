@@ -18,4 +18,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 
-SELECT sum(c12) FROM tbl1 
+pd.DataFrame(SELECT sum(c12) FROM tbl1)
